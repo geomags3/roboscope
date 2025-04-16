@@ -1,7 +1,18 @@
 [project]
 name = "roboscope"
 version = "0.1.0"
-description = "Add your description here"
+description = "A Python toolkit for recording structured test measurements in Robot Framework using SQLite or PostgreSQL."
+authors = [{ name = "Mykyta Didenko", email = "geomags3849@gmail.com" }]
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+license = "MIT"
+dependencies = [
+    "matplotlib>=3.10.1",
+    "robotframework>=7.2.2",
+    "sqlalchemy>=2.0.40",
+]
+
+[project.urls]
+Homepage = "https://github.com/geomags3/roboscope"
+Repository = "https://github.com/geomags3/roboscope"
+Issues = "https://github.com/geomags3/roboscope/issues"
